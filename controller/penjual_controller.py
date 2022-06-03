@@ -1,10 +1,10 @@
-from interface.penjual_operation import penjual_operation
+from interface.penjual_operation import PenjualOperation
 
-class penjualController(PenjualOperation):
-
+class PenjualController(PenjualOperation):
+    
     def menolak_pesanan(self) -> None:
-        print("penjual menolak pesanan karena stok habis")
-
+        print("Penjual menolak pesanan karena stok habis")
+        
     def menyiapkan_pesanan(self) -> None:
-        print("penjual menyiapkan pesanan sesuai pilihan pembeli")
+        print("Penjual menyiapkan pesanan sesuai pilihan pembeli")
         
