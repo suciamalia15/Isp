@@ -7,3 +7,4 @@ class PenjualController(PenjualOperation):
         
     def menyiapkan_pesanan(self) -> None:
         print("Penjual menyiapkan pesanan sesuai pilihan pembeli")
+        
